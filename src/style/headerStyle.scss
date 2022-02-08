@@ -1,11 +1,13 @@
+@import "@/style/variabiles.scss";
+
 header {
-  background-color: #27aabe;
+  background-color: $eastern-blue;
   font-size: 13px;
   height: 65px;
-  color: #fff;
+  color: $white;
 
   .logo {
-      width: 38%;
+    width: 38%;
   }
 
   nav {
@@ -14,17 +16,17 @@ header {
         margin: 0 25px;
 
         a {
-          color: #fff;
+          color: $white;
         }
 
         button {
-            background-color: #1a1b1b;
-            padding: 3px 15px;
-            font-size: 10px;
+          background-color: $black;
+          padding: 3px 15px;
+          font-size: 10px;
         }
 
         #lens {
-            cursor: pointer;
+          cursor: pointer;
         }
       }
     }

@@ -1,5 +1,7 @@
+@import "@/style/variabiles.scss";
+
 section {
-  background-color: #f5f5f5;
+  background-color: $white-smoke;
   .container {
     > div {
       h5 {
@@ -8,7 +10,7 @@ section {
       }
 
       p {
-        color: #aeaeae;
+        color: $silver-chalice;
         max-width: 460px;
         margin: 0 auto;
       }
