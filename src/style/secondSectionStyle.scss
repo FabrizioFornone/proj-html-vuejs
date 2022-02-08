@@ -1,3 +1,11 @@
-h3 {
-  color: red;
+@import "@/style/variabiles.scss";
+
+.col-4 {
+  .subtitle {
+    font-size: 10px;
+
+    span {
+      color: $silver-chalice;
+    }
+  }
 }
