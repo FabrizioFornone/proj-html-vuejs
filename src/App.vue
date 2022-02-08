@@ -1,5 +1,7 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <h1 class="text-secondary">test</h1>
+  </div>
 </template>
 
 <script>
@@ -10,5 +12,5 @@ export default {
 </script>
 
 <style lang="scss">
-
+@import "./style/main.scss";
 </style>
