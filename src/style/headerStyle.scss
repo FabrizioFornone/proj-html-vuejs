@@ -1,3 +1,32 @@
-h1 {
-    color: red;
+header {
+  background-color: #27aabe;
+  font-size: 13px;
+  color: #fff;
+
+  .logo {
+      width: 38%;
+  }
+
+  nav {
+    ul {
+      li {
+        margin: 0 25px;
+
+        a {
+          color: #fff;
+        }
+
+        button {
+            background-color: #1a1b1b;
+            padding: 3px 15px;
+            font-size: 11px;
+            border-color: #1a1b1b;
+        }
+
+        #lens {
+            cursor: pointer;
+        }
+      }
+    }
+  }
 }
