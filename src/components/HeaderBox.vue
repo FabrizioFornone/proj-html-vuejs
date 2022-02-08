@@ -14,7 +14,7 @@
             <li><a href="#">Forums</a></li>
             <li><a href="#">Contact us</a></li>
             <li>
-              <button class="text-uppercase rounded"><a href="#">join us</a></button>
+              <button class="text-uppercase fw-bold rounded"><a href="#">join us</a></button>
             </li>
 
             <li>

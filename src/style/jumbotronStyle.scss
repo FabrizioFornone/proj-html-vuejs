@@ -1,0 +1,33 @@
+.jumbotron {
+  background: url("../assets/img/home_slider_bg.jpg");
+  background-size: cover;
+  margin-top: 65px;
+  height: calc(100vh - 65px);
+
+  .container {
+    height: 100%;
+    position: relative;
+
+    > div {
+      position: absolute;
+      top: 35%;
+      left: 10%;
+      color: #fff;
+      
+      h1 {
+          font-size: 100px;
+      }
+
+      p {
+          font-size: 18px;
+      }
+
+
+      button {
+          background-color: #27aabe;
+          color: #fff;
+          font-size: 13px;
+      }
+    }
+  }
+}
