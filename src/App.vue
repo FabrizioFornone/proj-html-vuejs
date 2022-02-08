@@ -3,6 +3,7 @@
     <header-box />
     <jumbotron-box />
     <first-section-box />
+    <second-section-box />
   </div>
 </template>
 
@@ -10,9 +11,10 @@
 import HeaderBox from "./components/HeaderBox.vue";
 import JumbotronBox from "./components/JumbotronBox.vue";
 import FirstSectionBox from "./components/FistSectionBox.vue";
+import SecondSectionBox from "./components/SecondSectionBox.vue";
 export default {
   name: "App",
-  components: { HeaderBox, JumbotronBox, FirstSectionBox },
+  components: { HeaderBox, JumbotronBox, FirstSectionBox, SecondSectionBox },
 };
 </script>
 
