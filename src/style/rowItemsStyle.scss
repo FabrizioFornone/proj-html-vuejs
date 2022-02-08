@@ -2,10 +2,11 @@
 
 .col-4 {
   .subtitle {
-    font-size: 10px;
+    font-size: 11px;
 
-    span {
+    span, p {
       color: $silver-chalice;
     }
+    
   }
 }

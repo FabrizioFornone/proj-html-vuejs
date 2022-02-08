@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container">
+    <div class="container py-4">
       <div class="bg-blue">
         <div>
           <h5 class="text-uppercase">featured article</h5>

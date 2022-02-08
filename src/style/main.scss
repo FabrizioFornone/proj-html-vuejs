@@ -27,3 +27,8 @@ hr:not([size]) {
   opacity: 1;
   background-color: $salmon;
 }
+
+p {
+    margin-bottom: 0;
+    font-size: 12px;
+}

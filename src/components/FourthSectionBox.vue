@@ -1,14 +1,9 @@
 <template>
   <section>
-    <div class="container pt-5 my-3">
-      <div class="text-center">
-        <h5 class="text-uppercase">phasellus eget metus</h5>
-        <h2 class="fw-bold py-2">All the latest news</h2>
-        <hr />
-      </div>
-      <div class="row mt-5">
+    <div class="container">
+      <div class="row py-3">
         <div class="col-4">
-          <img class="img-fluid" src="@/assets/img/smartphone1.jpg" alt="" />
+          <img class="img-fluid" src="@/assets/img/tablet1.jpg" alt="" />
           <div class="fw-bold pt-1">
             Morbi vitae dui euismod vuluptate sollicitudin
           </div>
@@ -22,7 +17,7 @@
           </div>
         </div>
         <div class="col-4">
-          <img class="img-fluid" src="@/assets/img/smartphone2.jpg" alt="" />
+          <img class="img-fluid" src="@/assets/img/camera1.jpg" alt="" />
           <div class="fw-bold pt-1">Vivamus pellenteque, felis quis varius</div>
           <div class="subtitle pt-1">
             <span> October 11th, 205 | </span> <span>Comments Off</span>
@@ -34,7 +29,7 @@
           </div>
         </div>
         <div class="col-4">
-          <img class="img-fluid" src="@/assets/img/smartwatch.jpg" alt="" />
+          <img class="img-fluid" src="@/assets/img/desktop1.jpg" alt="" />
           <div class="fw-bold pt-1">
             Donec ornare pretium eget scelisque justo
           </div>
