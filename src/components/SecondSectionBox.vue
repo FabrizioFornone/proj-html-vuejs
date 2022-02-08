@@ -6,7 +6,7 @@
         <h2 class="fw-bold py-2">All the latest news</h2>
         <hr />
       </div>
-      <div class="row my-5">
+      <div class="row mt-5">
         <div class="col-4">
           <img class="img-fluid" src="@/assets/img/smartphone1.jpg" alt="" />
           <div class="fw-bold pt-1">

@@ -1,0 +1,25 @@
+@import "@/style/variabiles.scss";
+
+.bg-blue {
+  background: url("../assets/img/bg_blue.jpg");
+  background-size: cover;
+  height: 500px;
+  position: relative;
+
+  > div {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: $white;
+
+    p {
+      max-width: 90%;
+    }
+
+    button {
+      background-color: $black;
+      color: $white;
+      font-size: 13px;
+    }
+  }
+}
