@@ -16,19 +16,22 @@ button {
 }
 
 h5 {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 5px;
 }
 
 hr:not([size]) {
-  height: 1.5px;
+  height: 1.7px;
   width: 70px;
-  margin: 0 auto;
   opacity: 1;
   background-color: $salmon;
 }
 
 p {
-    margin-bottom: 0;
-    font-size: 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.subtitle {
+  font-size: 11px;
 }

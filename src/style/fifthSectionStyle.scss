@@ -1,0 +1,40 @@
+@import "@/style/variabiles.scss";
+
+.bg-dark {
+  background: url("../assets/img/bg_dark.jpg") center center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+
+  > div {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: $white;
+
+    h1 {
+      max-width: 80%;
+    }
+
+    p {
+      max-width: 90%;
+    }
+
+    button {
+      background-color: $black;
+      color: $white;
+      font-size: 13px;
+    }
+  }
+}
+
+.col-4 {
+  img {
+    width: 130px;
+    height: 110px;
+    object-fit: cover;
+  }
+  span {
+    color: $silver-chalice;
+  }
+}

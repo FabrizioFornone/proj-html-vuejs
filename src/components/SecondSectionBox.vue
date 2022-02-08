@@ -4,7 +4,7 @@
       <div class="text-center">
         <h5 class="text-uppercase">phasellus eget metus</h5>
         <h2 class="fw-bold py-2">All the latest news</h2>
-        <hr />
+        <hr class="my-0 mx-auto" />
       </div>
       <div class="row mt-5">
         <div class="col-4">

@@ -5,7 +5,8 @@
     <first-section-box />
     <second-section-box />
     <third-section-box />
-    <fourth-section-box/>
+    <fourth-section-box />
+    <fifth-section-box />
   </div>
 </template>
 
@@ -15,7 +16,8 @@ import JumbotronBox from "./components/JumbotronBox.vue";
 import FirstSectionBox from "./components/FistSectionBox.vue";
 import SecondSectionBox from "./components/SecondSectionBox.vue";
 import ThirdSectionBox from "./components/ThirdSectionBox.vue";
-import FourthSectionBox from './components/FourthSectionBox.vue';
+import FourthSectionBox from "./components/FourthSectionBox.vue";
+import FifthSectionBox from "./components/FifthSectionBox.vue";
 export default {
   name: "App",
   components: {
@@ -25,6 +27,7 @@ export default {
     SecondSectionBox,
     ThirdSectionBox,
     FourthSectionBox,
+    FifthSectionBox,
   },
 };
 </script>

@@ -1,12 +1,8 @@
 @import "@/style/variabiles.scss";
 
 .col-4 {
-  .subtitle {
-    font-size: 11px;
-
-    span, p {
-      color: $silver-chalice;
-    }
-    
+  span,
+  p {
+    color: $silver-chalice;
   }
 }

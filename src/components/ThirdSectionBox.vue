@@ -10,7 +10,7 @@
             Nullamolestie tortor nec lectus venenantis, sed landit, dui, dolor
             at bibendum sadips ets ipsum dolores ficilis uns leo lectus
           </p>
-          <button class="text-uppercase fw-bold px-4 py-2 rounded">
+          <button class="text-uppercase fw-bold my-2 px-5 py-2 rounded">
             <a href="#"></a>read more
             <i class="fas fa-angle-right px-1"></i>
           </button>
