@@ -11,7 +11,7 @@
             at bibendum sadips ets ipsum dolores ficilis uns leo lectus
           </p>
           <button class="text-uppercase fw-bold px-4 py-2 rounded">
-            <a href="#"></a>get avada now!
+            <a href="#"></a>read more
             <i class="fas fa-angle-right px-1"></i>
           </button>
         </div>
