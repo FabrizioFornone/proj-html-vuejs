@@ -1,6 +1,11 @@
 @import "~bootstrap/scss/bootstrap.scss";
 @import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");
 @import "@/style/variabiles.scss";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
 
 ul {
   list-style: none;
