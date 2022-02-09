@@ -7,6 +7,7 @@
     <third-section-box />
     <fourth-section-box />
     <fifth-section-box />
+    <sixth-section-box />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import SecondSectionBox from "./components/SecondSectionBox.vue";
 import ThirdSectionBox from "./components/ThirdSectionBox.vue";
 import FourthSectionBox from "./components/FourthSectionBox.vue";
 import FifthSectionBox from "./components/FifthSectionBox.vue";
+import SixthSectionBox from "./components/SixthSectionBox.vue";
 export default {
   name: "App",
   components: {
@@ -28,6 +30,7 @@ export default {
     ThirdSectionBox,
     FourthSectionBox,
     FifthSectionBox,
+    SixthSectionBox,
   },
 };
 </script>

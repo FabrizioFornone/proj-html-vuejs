@@ -1,0 +1,43 @@
+@import "@/style/variabiles.scss";
+
+.banner {
+  background-color: $black;
+  color: $white;
+
+  button {
+    background-color: $black;
+    color: $white;
+    font-size: 13px;
+
+    a {
+      color: $white;
+    }
+  }
+}
+
+.container-fluid {
+  background-color: $white-smoke;
+
+  .col-3 {
+    .icon-box {
+      margin: 0 15px;
+      background-color: $white;
+      border-top: 3px solid $eastern-blue;
+    }
+
+    i {
+      font-size: 28px;
+      padding: 11px 15px;
+      color: $white;
+      background-color: $salmon;
+    }
+
+    #coffe-icon {
+      padding: 11px 10px;
+    }
+
+    #laptop-icon {
+      padding: 12px 10px;
+    }
+  }
+}
