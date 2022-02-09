@@ -1,0 +1,39 @@
+@import "@/style/variabiles.scss";
+
+.container {
+  p {
+    max-width: 300px;
+  }
+
+  li::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 15px;
+    padding-right: 5px;
+  }
+
+  li {
+    border-bottom: 2px solid $white-smoke;
+    padding: 5px 0;
+  }
+
+  .end-line span {
+    padding: 0 2px;
+    font-size: 12px;
+  }
+
+  .copyright-span::before {
+    content: "\f1f9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    font-size: 12px;
+    padding-right: 5px;
+  }
+}
+
+#footer-hr {
+  width: 100%;
+  opacity: 1;
+  background-color: $white-smoke;
+}

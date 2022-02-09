@@ -9,7 +9,7 @@
     <fifth-section-box />
     <sixth-section-box />
     <seventh-section-box />
-    <footer-box />
+    <footer-box/>
   </div>
 </template>
 
