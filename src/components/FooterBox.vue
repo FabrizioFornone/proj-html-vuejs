@@ -48,12 +48,20 @@
       </div>
     </div>
     <hr id="footer-hr" />
-    <div class="container">
-      <div class="end-line">
-        <span class="copyright-span">Copiright 2012 -2020</span> <span>|</span>
-        <span>Avada <strong>Theme Fusion</strong></span> <span>|</span>
-        <span>All Righjts Reserved</span><span>|</span>
-        <span>Powered by <strong>WordPress</strong> </span>
+    <div class="container my-5">
+      <div class="d-flex justify-content-between">
+        <div class="end-line">
+          <span class="copyright-span">Copiright 2012 -2020</span>
+          <span>|</span> <span>Avada <strong>Theme Fusion</strong></span>
+          <span>|</span> <span>All Righjts Reserved</span><span>|</span>
+          <span>Powered by <strong>WordPress</strong> </span>
+        </div>
+        <div class="d-flex icon-box">
+          <i id="facebook-icon" class="fab fa-facebook-f rounded-circle"></i>
+          <i id="twitter-icon" class="fab fa-twitter rounded-circle"></i>
+          <i id="instagram-icon" class="fab fa-instagram rounded-circle"></i>
+          <i id="youtube-icon" class="fab fa-youtube rounded-circle"></i>
+        </div>
       </div>
     </div>
   </footer>

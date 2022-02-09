@@ -30,6 +30,29 @@
     font-size: 12px;
     padding-right: 5px;
   }
+
+  .icon-box i {
+    font-size: 17px;
+    margin: 0 5px;
+    color: $white;
+  }
+
+  #facebook-icon {
+    background-color: #3b5998;
+    padding: 17px 22px;
+  }
+  #twitter-icon {
+    background-color: #55acee;
+    padding: 17px 19px;
+  }
+  #instagram-icon {
+    background-color: #3f729b;
+    padding: 17px 19px;
+  }
+  #youtube-icon {
+    background-color: #cd201f;
+    padding: 17px 17px;
+  }
 }
 
 #footer-hr {
