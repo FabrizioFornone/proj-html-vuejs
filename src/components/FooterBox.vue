@@ -50,6 +50,11 @@
         </div>
       </div>
     </div>
+    <div class="fixed-bottom d-flex justify-content-end">
+      <a @click="scrollUp()" href="#">
+        <i class="fas fa-chevron-up mx-5 px-3 py-2 rounded end-chevron"></i>
+      </a>
+    </div>
   </footer>
 </template>
 
@@ -57,6 +62,11 @@
 export default {
   props: {
     footerProps: Array,
+  },
+  methods: {
+    scrollUp() {
+      window.scrollTo(0, 0);
+    },
   },
 };
 </script>
