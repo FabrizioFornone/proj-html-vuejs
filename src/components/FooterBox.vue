@@ -4,7 +4,7 @@
       <div class="d-flex py-5">
         <div class="col-3">
           <div class="px-2">
-            <div class="fw-bold text-uppercase py-3">avada tech forum</div>
+            <div class="fs-5 fw-bold text-uppercase py-3">avada tech forum</div>
             <p>
               Sed semper, nisl id feugiat eleifend, erat est digssim felis, quis
               auctor elit enim nec ante. Cras et nibh risus. pellentesque non mi
@@ -14,7 +14,7 @@
         </div>
         <div v-for="(item, index) in footerProps" :key="index" class="col-3">
           <div class="px-2">
-            <div class="fw-bold text-uppercase py-3">{{item.title}}</div>
+            <div class="fs-5 fw-bold text-uppercase py-3">{{item.title}}</div>
             <ul>
               <li>{{item.item1}}</li>
               <li>{{item.item2}}</li>

@@ -22,9 +22,9 @@
             class="col-3 mt-4"
           >
             <a href="#">
-              <div class="text-center p-5 icon-box">
+              <div class="d-flex flex-column align-items-center p-5 icon-box">
                 <i
-                  :class="`${icon.family} ${icon.prefix}${icon.name} rounded-circle`"
+                  :class="`${icon.family} ${icon.prefix}${icon.name} d-flex align-items-center justify-content-center rounded-circle`"
                 ></i>
                 <div class="fw-bold pt-2">News & community</div>
               </div>

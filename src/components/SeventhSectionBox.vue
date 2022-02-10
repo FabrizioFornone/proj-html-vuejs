@@ -2,7 +2,7 @@
   <section>
     <div class="colored-background">
       <div class="text-center">
-        <h2>Hey! Join to our Community</h2>
+        <h2 class="fw-bold">Hey! Join to our Community</h2>
         <p class="py-2">
           Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus.
           Curabitur feugiat vuluptate purus ipsums dolores ficilis uns etra
@@ -14,7 +14,7 @@
     </div>
     <div class="container-fluid">
       <div class="text-center">
-        <h4 class="py-3">Subscribe to our Newsletter</h4>
+        <h4 class="py-3 fw-bold">Subscribe to our Newsletter</h4>
         <input type="text" placeholder="Insert your email*" />
         <button class="text-uppercase fw-bold mx-5 rounded btn">
           <a href="#">send</a>

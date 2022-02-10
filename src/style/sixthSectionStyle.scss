@@ -22,23 +22,16 @@
       color: $black;
 
       .icon-box {
-        margin: 0 15px;
+        margin: 0 20px;
         background-color: $white;
         border-top: 3px solid $eastern-blue;
 
         i {
-          font-size: 28px;
-          padding: 11px 15px;
+          font-size: 36px;
+          height: 80px;
+          width: 80px;
           color: $white;
           background-color: $salmon;
-        }
-
-        #coffe-icon {
-          padding: 11px 10px;
-        }
-
-        #laptop-icon {
-          padding: 12px 10px;
         }
       }
     }
