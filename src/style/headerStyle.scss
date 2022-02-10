@@ -24,8 +24,8 @@ header {
 
           li {
             height: 100%;
-
             margin: 0 25px;
+            position: relative;
 
             a {
               height: 100%;
@@ -34,16 +34,32 @@ header {
               &:hover {
                 color: $white;
               }
-            }
 
-            button {
-              background-color: $black;
-              padding: 8px 20px;
-              font-size: 10px;
-              
-              a {
-                color: $white;
+              &::after {
+                display: none;
+                content: "";
+                position: absolute;
+                top: 66.5px;
+                left: 50%;
+                height: 20px;
+                width: 20px;
+                background-color: $eastern-blue;
+                transform: translateX(-50%) rotate(45deg);
               }
+
+              &:hover::after {
+                display: block;
+              }
+            }
+          }
+
+          button {
+            background-color: $black;
+            padding: 8px 20px;
+            font-size: 10px;
+
+            a {
+              color: $white;
             }
 
             #lens {

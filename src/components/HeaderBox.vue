@@ -16,14 +16,10 @@
             >
               <a class="d-flex align-items-center" href="#">{{ item }}</a>
             </li>
-            <li class="d-flex align-items-center">
-              <button class="text-uppercase fw-bold rounded btn">
-                <a href="#">join us</a>
-              </button>
-            </li>
-            <li class="d-flex align-items-center">
-              <i id="lens" class="fas fa-search"></i>
-            </li>
+            <button class="text-uppercase fw-bold rounded btn">
+              <a href="#">join us</a>
+            </button>
+            <i id="lens" class="fas fa-search px-4"></i>
           </ul>
         </nav>
       </div>
