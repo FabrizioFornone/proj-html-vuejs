@@ -16,51 +16,9 @@
           <hr class="my-0 mx-auto" />
         </div>
         <div class="row py-5">
-          <div class="col-3 mt-4">
+          <div v-for="(icon, index) in iconsProps" :key="index" class="col-3 mt-4">
             <div class="text-center p-5 icon-box">
-              <i class="fas fa-file-alt rounded-circle"></i>
-              <div class="fw-bold pt-2">News & community</div>
-            </div>
-          </div>
-          <div class="col-3 mt-4">
-            <div class="text-center p-5 icon-box">
-              <i class="fab fa-apple rounded-circle"></i>
-              <div class="fw-bold pt-2">News & community</div>
-            </div>
-          </div>
-          <div class="col-3 mt-4">
-            <div class="text-center p-5 icon-box">
-              <i class="fab fa-windows rounded-circle"></i>
-              <div class="fw-bold pt-2">News & community</div>
-            </div>
-          </div>
-          <div class="col-3 mt-4">
-            <div class="text-center p-5 icon-box">
-              <i class="fab fa-android rounded-circle"></i>
-              <div class="fw-bold pt-2">News & community</div>
-            </div>
-          </div>
-          <div class="col-3 mt-4">
-            <div class="text-center p-5 icon-box">
-              <i id="coffe-icon" class="fas fa-coffee rounded-circle"></i>
-              <div class="fw-bold pt-2">News & community</div>
-            </div>
-          </div>
-          <div class="col-3 mt-4">
-            <div class="text-center p-5 icon-box">
-              <i class="fas fa-cubes rounded-circle"></i>
-              <div class="fw-bold pt-2">News & community</div>
-            </div>
-          </div>
-          <div class="col-3 mt-4">
-            <div class="text-center p-5 icon-box">
-              <i id="laptop-icon" class="fas fa-laptop rounded-circle"></i>
-              <div class="fw-bold pt-2">News & community</div>
-            </div>
-          </div>
-          <div class="col-3 mt-4">
-            <div class="text-center p-5 icon-box">
-              <i class="fas fa-wrench rounded-circle"></i>
+              <i :class="`${icon.family} ${icon.prefix}${icon.name} rounded-circle`"></i>
               <div class="fw-bold pt-2">News & community</div>
             </div>
           </div>
@@ -79,7 +37,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    iconsProps: Array,
+  },
+};
 </script>
 
 <style lang="scss" scoped>

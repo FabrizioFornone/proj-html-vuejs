@@ -7,7 +7,7 @@
     <third-section-box />
     <fourth-section-box :latestNews2Props="latestNews2" />
     <fifth-section-box :tutorialAndGuideProps="tutorialAndGuide" />
-    <sixth-section-box />
+    <sixth-section-box :iconsProps="icons"/>
     <seventh-section-box />
     <footer-box :footerProps="footerItems" />
   </div>
@@ -145,6 +145,48 @@ export default {
           title: "Donec ornare pretium eget scelisque justo",
           subtitle: "October 11th, 205 |",
           comments: "Comments Off",
+        },
+      ],
+      icons: [
+        {
+          name: "file-alt",
+          prefix: "fa-",
+          family: "fas",
+        },
+        {
+          name: "apple",
+          prefix: "fa-",
+          family: "fab",
+        },
+        {
+          name: "windows",
+          prefix: "fa-",
+          family: "fab",
+        },
+        {
+          name: "android",
+          prefix: "fa-",
+          family: "fab",
+        },
+        {
+          name: "coffee",
+          prefix: "fa-",
+          family: "fas",
+        },
+        {
+          name: "cubes",
+          prefix: "fa-",
+          family: "fas",
+        },
+        {
+          name: "laptop",
+          prefix: "fa-",
+          family: "fas",
+        },
+        {
+          name: "wrench",
+          prefix: "fa-",
+          family: "fas",
         },
       ],
     };
