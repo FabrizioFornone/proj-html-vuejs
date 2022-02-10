@@ -23,36 +23,19 @@
           <div class="ps-3">
             <h3 class="fw-bold py-2">Tutorials & Guides</h3>
             <hr />
-            <div class="d-flex py-3">
-              <img src="@/assets/img/smartwatch2.jpg" alt="" />
+            <div
+              v-for="(item, index) in tutorialAndGuideProps"
+              :key="index"
+              class="d-flex py-3"
+            >
+              <img :src="`/img${item.img}`" alt="" />
               <div class="px-2">
                 <div class="fw-bold">
-                  Donec ornare pretium eget scelisque justo
+                  {{ item.title }}
                 </div>
                 <div class="subtitle py-1">
-                  <span> October 11th, 205 | </span> <span>Comments Off</span>
-                </div>
-              </div>
-            </div>
-            <div class="d-flex py-3">
-              <img src="@/assets/img/tablet2.jpg" alt="" />
-              <div class="px-2">
-                <div class="fw-bold">
-                  Fusce sollicitudin nunc sed placerat varius
-                </div>
-                <div class="subtitle py-1">
-                  <span> October 11th, 205 | </span> <span>Comments Off</span>
-                </div>
-              </div>
-            </div>
-            <div class="d-flex py-3">
-              <img src="@/assets/img/desktop2.jpg" alt="" />
-              <div class="px-2">
-                <div class="fw-bold">
-                  Proin eu purus sed aru aliquet curabir vens
-                </div>
-                <div class="subtitle py-1">
-                  <span> October 11th, 205 | </span> <span>Comments Off</span>
+                  <span> {{ item.subtitle }} </span>
+                  <span>{{ item.comments }}</span>
                 </div>
               </div>
             </div>
@@ -64,7 +47,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    tutorialAndGuideProps: Array,
+  },
+};
 </script>
 
 <style lang="scss" scoped>

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="d-flex justify-content-between align-items-center py-2">
         <div>
-          <img class="logo" src="@/assets/img/logo-2x.png" alt="" />
+          <img class="logo" :src="`/img${logoProps}`" alt="" />
         </div>
         <nav>
           <ul class="d-flex align-items-center">
@@ -29,6 +29,7 @@
 <script>
 export default {
   props: {
+    logoProps: String,
     menuProps: Array,
   },
 };

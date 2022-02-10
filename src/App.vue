@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <header-box :menuProps="menuItems" />
+    <header-box :menuProps="menuItems" logoProps="/logo-2x.png" />
     <jumbotron-box />
     <first-section-box />
-    <second-section-box />
+    <second-section-box :latestNewsProps="latestNews" />
     <third-section-box />
-    <fourth-section-box />
-    <fifth-section-box />
+    <fourth-section-box :latestNews2Props="latestNews2" />
+    <fifth-section-box :tutorialAndGuideProps="tutorialAndGuide" />
     <sixth-section-box />
     <seventh-section-box />
-    <footer-box :footerProps="footerItems"/>
+    <footer-box :footerProps="footerItems" />
   </div>
 </template>
 
@@ -40,7 +40,14 @@ export default {
   },
   data() {
     return {
-      menuItems: ["Home", "Apple", "Microsoft", "Android", "Forum", "Contact us"],
+      menuItems: [
+        "Home",
+        "Apple",
+        "Microsoft",
+        "Android",
+        "Forum",
+        "Contact us",
+      ],
       footerItems: [
         {
           title: "popular topics",
@@ -62,6 +69,82 @@ export default {
           item2: "Cras lacinia tellus id mauris finibus lacus molestie",
           item3: "Nulla egestas nulla eu nulla suscipit molestie",
           item4: "Mauris ac nibh quis eros sagittis lacinia a et dui",
+        },
+      ],
+      latestNews: [
+        {
+          img: "/smartphone1.jpg",
+          title: "Morbi vitae dui euismod vuluptate sollicitudin",
+          subtitle: "October 11th, 205 |",
+          comments: "2 comments",
+          paragraph:
+            "Donec finibus sit aemet orci eget ultricies. Praesent posuere ante ut erat fringilla, stibulum placerat metus mattis. Aenean dictum vitae nisl",
+        },
+        {
+          img: "/smartphone2.jpg",
+          title: "Vivamus pellenteque, felis quis varius",
+          subtitle: "October 11th, 205 |",
+          comments: "Comments Off",
+          paragraph:
+            "Donec finibus sit aemet orci eget ultricies. Praesent posuere ante ut erat fringilla, stibulum placerat metus mattis. Aenean dictum vitae nisl",
+        },
+        {
+          img: "/smartwatch.jpg",
+          title: "Donec ornare pretium eget scelisque justo",
+          subtitle: "October 11th, 205 |",
+          comments: "Comments Off",
+          paragraph:
+            "Donec finibus sit aemet orci eget ultricies. Praesent posuere ante ut erat fringilla, stibulum placerat metus mattis. Aenean dictum vitae nisl",
+        },
+      ],
+      latestNews2: [
+        {
+          img: "/tablet1.jpg",
+          title: "Morbi vitae dui euismod vuluptate sollicitudin",
+          subtitle: "October 11th, 205 |",
+          comments: "2 comments",
+          paragraph:
+            "Donec finibus sit aemet orci eget ultricies. Praesent posuere ante ut erat fringilla, stibulum placerat metus mattis. Aenean dictum vitae nisl",
+        },
+        {
+          img: "/camera1.jpg",
+          title: "Vivamus pellenteque, felis quis varius",
+          subtitle: "October 11th, 205 |",
+          comments: "Comments Off",
+          paragraph:
+            "Donec finibus sit aemet orci eget ultricies. Praesent posuere ante ut erat fringilla, stibulum placerat metus mattis. Aenean dictum vitae nisl",
+        },
+        {
+          img: "/desktop1.jpg",
+          title: "Donec ornare pretium eget scelisque justo",
+          subtitle: "October 11th, 205 |",
+          comments: "Comments Off",
+          paragraph:
+            "Donec finibus sit aemet orci eget ultricies. Praesent posuere ante ut erat fringilla, stibulum placerat metus mattis. Aenean dictum vitae nisl",
+        },
+      ],
+      tutorialAndGuide: [
+        {
+          img: "/tablet1.jpg",
+          title: "Morbi vitae dui euismod vuluptate sollicitudin",
+          subtitle: "October 11th, 205 |",
+          comments: "2 comments",
+          paragraph:
+            "Donec finibus sit aemet orci eget ultricies. Praesent posuere ante ut erat fringilla, stibulum placerat metus mattis. Aenean dictum vitae nisl",
+        },
+        {
+          img: "/camera1.jpg",
+          title: "Vivamus pellenteque, felis quis varius",
+          subtitle: "October 11th, 205 |",
+          comments: "Comments Off",
+          paragraph:
+            "Donec finibus sit aemet orci eget ultricies. Praesent posuere ante ut erat fringilla, stibulum placerat metus mattis. Aenean dictum vitae nisl",
+        },
+        {
+          img: "/desktop1.jpg",
+          title: "Donec ornare pretium eget scelisque justo",
+          subtitle: "October 11th, 205 |",
+          comments: "Comments Off",
         },
       ],
     };
