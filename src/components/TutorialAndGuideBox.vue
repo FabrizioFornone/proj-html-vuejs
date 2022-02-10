@@ -14,7 +14,7 @@
               at bibendum sadips ets ipsum dolores ficilis uns leo lectus
             </p>
             <button class="text-uppercase fw-bold my-3 rounded btn black-btn">
-              <a href="#"></a>read more
+              <a href="#">read more</a>
               <i class="fas fa-angle-right px-1"></i>
             </button>
           </div>
