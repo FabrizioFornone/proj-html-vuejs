@@ -16,7 +16,7 @@
             >
               <a class="d-flex align-items-center" href="#">{{ item }}</a>
             </li>
-            <button class="text-uppercase fw-bold rounded btn">
+            <button class="text-uppercase fw-bold rounded btn black-btn ">
               <a href="#">join us</a>
             </button>
             <i id="lens" class="fas fa-search px-4"></i>

@@ -3,7 +3,7 @@
 .bg-blue {
   background: url(/img/bg_blue.jpg);
   background-size: cover;
-  height: 500px;
+  height: 650px;
   position: relative;
 
   > div {
@@ -14,12 +14,6 @@
 
     p {
       max-width: 90%;
-    }
-
-    button {
-      background-color: $black;
-      color: $white;
-      font-size: 13px;
     }
   }
 }

@@ -17,8 +17,19 @@ a {
   text-decoration: none;
 }
 
+.eastern-blue-btn {
+  background-color: $eastern-blue;
+}
+
+.black-btn {
+  background-color: $black;
+}
+
 .btn {
   border-color: transparent;
+  color: $white;
+  font-size: 19px;
+  padding: 15px 35px;
   &:hover {
     background-color: $salmon !important;
   }
@@ -42,7 +53,8 @@ hr:not([size]) {
 
 p {
   margin-bottom: 0;
-  font-size: 13.5px;
+  font-size: 15px;
+  line-height: 1.8;
 }
 
 .subtitle {
