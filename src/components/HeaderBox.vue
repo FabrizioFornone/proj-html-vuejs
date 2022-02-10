@@ -17,7 +17,7 @@
               <a class="d-flex align-items-center" href="#">{{ item }}</a>
             </li>
             <li class="d-flex align-items-center">
-              <button class="text-uppercase fw-bold rounded">
+              <button class="text-uppercase fw-bold rounded btn">
                 <a href="#">join us</a>
               </button>
             </li>

@@ -7,7 +7,7 @@
           Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus.
           Curabitur feugiat vuluptate purus ipsums dolores ficilis uns etra
         </p>
-        <button class="text-uppercase fw-bold my-2 px-4 py-2 rounded">
+        <button class="text-uppercase fw-bold my-2 px-4 py-2 rounded btn">
           <a href="#">Sign up</a> <i class="fas fa-angle-right px-1"></i>
         </button>
       </div>
@@ -16,7 +16,7 @@
       <div class="text-center">
         <h4 class="py-3">Subscribe to our Newsletter</h4>
         <input type="text" placeholder="Insert your email*" />
-        <button class="text-uppercase fw-bold mx-5 rounded">
+        <button class="text-uppercase fw-bold mx-5 rounded btn">
           <a href="#">send</a>
         </button>
       </div>

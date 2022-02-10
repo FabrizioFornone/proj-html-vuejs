@@ -17,12 +17,19 @@ a {
   text-decoration: none;
 }
 
-button {
+.btn {
   border-color: transparent;
+  &:hover {
+    background-color: $salmon !important;
+  }
+}
+
+h2 {
+  font-size: 50px;
 }
 
 h5 {
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 5px;
 }
 

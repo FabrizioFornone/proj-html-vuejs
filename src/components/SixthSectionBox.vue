@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="banner mt-3 d-flex justify-content-center">
-      <button class="text-uppercase fw-bold my-4 px-5 py-2 rounded">
+      <button class="text-uppercase fw-bold my-4 px-5 py-2 rounded btn">
         <a href="#"
           >read our blog
           <i class="fas fa-long-arrow-alt-right px-1"></i>
@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="banner mt-3 d-flex justify-content-center">
-      <button class="text-uppercase fw-bold my-4 px-5 py-2 rounded">
+      <button class="text-uppercase fw-bold my-4 px-5 py-2 rounded btn">
         <a href="#"
           >Go to our forum
           <i class="fas fa-long-arrow-alt-right px-1"></i>
