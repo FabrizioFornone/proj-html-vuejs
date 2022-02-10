@@ -12,36 +12,14 @@
             </p>
           </div>
         </div>
-        <div class="col-3">
+        <div v-for="(item, index) in footerProps" :key="index" class="col-3">
           <div class="px-2">
-            <div class="fw-bold text-uppercase py-3">popular topics</div>
+            <div class="fw-bold text-uppercase py-3">{{item.title}}</div>
             <ul>
-              <li>Nam a dolor voluptat massa auctor semper</li>
-              <li>Sed euismod nunc urna fermentum arcu dapibus fringilla.</li>
-              <li>Cras lacinia tellus id mauris finibus lacus molestie</li>
-              <li>Curabitur a scelerisque ligula</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-3">
-          <div class="px-2">
-            <div class="fw-bold text-uppercase py-3">recent topic</div>
-            <ul>
-              <li>Cras lacinia tellus id mauris finibus lacus molestie</li>
-              <li>Proin at ligula sagittis vestibulum nisi vitae</li>
-              <li>Sed nec metus at est tincidunt elementum</li>
-              <li>Nulla egestas nulla eu nulla suscipit molestie</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-3">
-          <div class="mx-2">
-            <div class="fw-bold text-uppercase py-3">latest replies</div>
-            <ul>
-              <li>Cras lacinia tellus id mauris finibus lacus molestie</li>
-              <li>Cras lacinia tellus id mauris finibus lacus molestie</li>
-              <li>Nulla egestas nulla eu nulla suscipit molestie</li>
-              <li>Mauris ac nibh quis eros sagittis lacinia a et dui</li>
+              <li>{{item.item1}}</li>
+              <li>{{item.item2}}</li>
+              <li>{{item.item3}}</li>
+              <li>{{item.item4}}</li>
             </ul>
           </div>
         </div>
@@ -68,7 +46,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    footerProps: Array,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
