@@ -1,12 +1,12 @@
 <template>
   <section>
-    <div class="banner mt-3 d-flex justify-content-center">
-      <button class="text-uppercase fw-bold my-4 px-5 py-2 rounded btn">
+    <div class="banner py-4 mt-3 d-flex justify-content-center">
+      <div class="text-uppercase fw-bold my-5">
         <a href="#"
           >read our blog
           <i class="fas fa-long-arrow-alt-right px-1"></i>
         </a>
-      </button>
+      </div>
     </div>
     <div class="container-fluid">
       <div class="container">
@@ -33,13 +33,13 @@
         </div>
       </div>
     </div>
-    <div class="banner mt-3 d-flex justify-content-center">
-      <button class="text-uppercase fw-bold my-4 px-5 py-2 rounded btn">
+    <div class="banner py-4 mt-3 d-flex justify-content-center">
+      <div class="text-uppercase fw-bold my-5">
         <a href="#"
           >Go to our forum
           <i class="fas fa-long-arrow-alt-right px-1"></i>
         </a>
-      </button>
+      </div>
     </div>
   </section>
 </template>

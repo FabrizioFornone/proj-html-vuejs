@@ -3,15 +3,14 @@
 .banner {
   background-color: $black;
   color: $white;
+  cursor: pointer;
 
-  button {
-    background-color: $black;
+  &:hover {
+    background-color: $eastern-blue;
+  }
+
+  a {
     color: $white;
-    font-size: 13px;
-
-    a {
-      color: $white;
-    }
   }
 }
 
