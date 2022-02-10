@@ -14,12 +14,12 @@
         </div>
         <div v-for="(item, index) in footerProps" :key="index" class="col-3">
           <div class="px-2">
-            <div class="fs-5 fw-bold text-uppercase py-3">{{item.title}}</div>
+            <div class="fs-5 fw-bold text-uppercase py-3">{{ item.title }}</div>
             <ul>
-              <li>{{item.item1}}</li>
-              <li>{{item.item2}}</li>
-              <li>{{item.item3}}</li>
-              <li>{{item.item4}}</li>
+              <li>{{ item.item1 }}</li>
+              <li>{{ item.item2 }}</li>
+              <li>{{ item.item3 }}</li>
+              <li>{{ item.item4 }}</li>
             </ul>
           </div>
         </div>
@@ -35,10 +35,18 @@
           <span>Powered by <strong>WordPress</strong> </span>
         </div>
         <div class="d-flex icon-box">
-          <i id="facebook-icon" class="fab fa-facebook-f rounded-circle"></i>
-          <i id="twitter-icon" class="fab fa-twitter rounded-circle"></i>
-          <i id="instagram-icon" class="fab fa-instagram rounded-circle"></i>
-          <i id="youtube-icon" class="fab fa-youtube rounded-circle"></i>
+          <a href="#">
+            <i id="facebook-icon" class="fab fa-facebook-f rounded-circle"></i>
+          </a>
+          <a href="#">
+            <i id="twitter-icon" class="fab fa-twitter rounded-circle"></i>
+          </a>
+          <a href="#">
+            <i id="instagram-icon" class="fab fa-instagram rounded-circle"></i>
+          </a>
+          <a href="#">
+            <i id="youtube-icon" class="fab fa-youtube rounded-circle"></i>
+          </a>
         </div>
       </div>
     </div>

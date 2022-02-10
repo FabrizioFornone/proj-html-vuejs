@@ -3,9 +3,10 @@
     <div class="container py-5">
       <div class="text-center py-5">
         <h5 class="text-uppercase">avada forum is the place to be</h5>
-        <p class="py-1"> In quis lectus sed leo elementum facibus in dapibus dictum.
-            Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus.
-            Dolor at, bibendum purus. Donec vehicula nec tortor ac finibus.
+        <p class="py-1">
+          In quis lectus sed leo elementum facibus in dapibus dictum. Nulla
+          molestie tortor nec lectus venenatis, sed blandit dui finibus. Dolor
+          at, bibendum purus. Donec vehicula nec tortor ac finibus.
         </p>
       </div>
     </div>

@@ -2,13 +2,13 @@
   <div id="app">
     <header-box :menuProps="menuItems" logoProps="/logo-2x.png" />
     <jumbotron-box />
-    <first-section-box />
-    <second-section-box :latestNewsProps="latestNews" />
-    <third-section-box />
-    <fourth-section-box :latestNews2Props="latestNews2" />
-    <fifth-section-box :tutorialAndGuideProps="tutorialAndGuide" />
-    <sixth-section-box :iconsProps="icons"/>
-    <seventh-section-box />
+    <heading-text-box />
+    <first-item-row-box :latestNewsProps="latestNews" />
+    <featured-article-box />
+    <second-item-row-box :latestNews2Props="latestNews2" />
+    <tutorial-and-guide-box :tutorialAndGuideProps="tutorialAndGuide" />
+    <forum-sections-box :iconsProps="icons" />
+    <community-and-subriscribe-box />
     <footer-box :footerProps="footerItems" />
   </div>
 </template>
@@ -16,26 +16,26 @@
 <script>
 import HeaderBox from "./components/HeaderBox.vue";
 import JumbotronBox from "./components/JumbotronBox.vue";
-import FirstSectionBox from "./components/FistSectionBox.vue";
-import SecondSectionBox from "./components/SecondSectionBox.vue";
-import ThirdSectionBox from "./components/ThirdSectionBox.vue";
-import FourthSectionBox from "./components/FourthSectionBox.vue";
-import FifthSectionBox from "./components/FifthSectionBox.vue";
-import SixthSectionBox from "./components/SixthSectionBox.vue";
-import SeventhSectionBox from "./components/SeventhSectionBox.vue";
+import HeadingTextBox from "./components/HeadingTextBox.vue";
+import FirstItemRowBox from "./components/FirstItemRowBox.vue";
+import FeaturedArticleBox from "./components/FeaturedArticleBox.vue";
+import SecondItemRowBox from "./components/SecondItemRowBox.vue";
+import TutorialAndGuideBox from "./components/TutorialAndGuideBox.vue";
+import ForumSectionsBox from "./components/ForumSectionsBox.vue";
+import CommunityAndSubriscribeBox from "./components/CommunityAndSubriscribeBox.vue";
 import FooterBox from "./components/FooterBox.vue";
 export default {
   name: "App",
   components: {
     HeaderBox,
     JumbotronBox,
-    FirstSectionBox,
-    SecondSectionBox,
-    ThirdSectionBox,
-    FourthSectionBox,
-    FifthSectionBox,
-    SixthSectionBox,
-    SeventhSectionBox,
+    HeadingTextBox,
+    FirstItemRowBox,
+    FeaturedArticleBox,
+    SecondItemRowBox,
+    TutorialAndGuideBox,
+    ForumSectionsBox,
+    CommunityAndSubriscribeBox,
     FooterBox,
   },
   data() {
