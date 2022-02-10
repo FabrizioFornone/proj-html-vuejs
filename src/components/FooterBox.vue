@@ -16,10 +16,20 @@
           <div class="px-2">
             <div class="fs-5 fw-bold text-uppercase py-3">{{ item.title }}</div>
             <ul>
-              <li>{{ item.item1 }}</li>
-              <li>{{ item.item2 }}</li>
-              <li>{{ item.item3 }}</li>
-              <li>{{ item.item4 }}</li>
+              <li>
+                <a href="#">{{ item.item1 }}</a>
+              </li>
+              <li>
+                <a href="#">{{ item.item2 }}</a>
+              </li>
+              <li>
+                <a href="#">{{ item.item3 }}</a>
+              </li>
+              <li>
+                <a href="#">
+                  {{ item.item4 }}
+                </a>
+              </li>
             </ul>
           </div>
         </div>

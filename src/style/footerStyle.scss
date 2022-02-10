@@ -53,6 +53,14 @@
     background-color: #cd201f;
     padding: 17px 17px;
   }
+
+  a{
+    color: $black;
+
+    &:hover{
+      color: $eastern-blue;
+    }
+  }
 }
 
 #footer-hr {
