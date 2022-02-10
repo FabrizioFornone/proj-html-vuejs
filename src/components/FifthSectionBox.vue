@@ -28,7 +28,9 @@
               :key="index"
               class="d-flex py-3"
             >
-              <img :src="`/img${item.img}`" alt="" />
+              <a href="#">
+                <img :src="`/img${item.img}`" alt="" />
+              </a>
               <div class="px-2">
                 <div class="fw-bold">
                   {{ item.title }}

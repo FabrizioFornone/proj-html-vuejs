@@ -19,25 +19,29 @@
   background-color: $white-smoke;
 
   .col-3 {
-    .icon-box {
-      margin: 0 15px;
-      background-color: $white;
-      border-top: 3px solid $eastern-blue;
-    }
+    a {
+      color: $black;
 
-    i {
-      font-size: 28px;
-      padding: 11px 15px;
-      color: $white;
-      background-color: $salmon;
-    }
+      .icon-box {
+        margin: 0 15px;
+        background-color: $white;
+        border-top: 3px solid $eastern-blue;
 
-    #coffe-icon {
-      padding: 11px 10px;
-    }
+        i {
+          font-size: 28px;
+          padding: 11px 15px;
+          color: $white;
+          background-color: $salmon;
+        }
 
-    #laptop-icon {
-      padding: 12px 10px;
+        #coffe-icon {
+          padding: 11px 10px;
+        }
+
+        #laptop-icon {
+          padding: 12px 10px;
+        }
+      }
     }
   }
 }

@@ -16,11 +16,19 @@
           <hr class="my-0 mx-auto" />
         </div>
         <div class="row py-5">
-          <div v-for="(icon, index) in iconsProps" :key="index" class="col-3 mt-4">
-            <div class="text-center p-5 icon-box">
-              <i :class="`${icon.family} ${icon.prefix}${icon.name} rounded-circle`"></i>
-              <div class="fw-bold pt-2">News & community</div>
-            </div>
+          <div
+            v-for="(icon, index) in iconsProps"
+            :key="index"
+            class="col-3 mt-4"
+          >
+            <a href="#">
+              <div class="text-center p-5 icon-box">
+                <i
+                  :class="`${icon.family} ${icon.prefix}${icon.name} rounded-circle`"
+                ></i>
+                <div class="fw-bold pt-2">News & community</div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
