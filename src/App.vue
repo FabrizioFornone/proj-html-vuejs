@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-box />
+    <header-box :menuProps="menu" />
     <jumbotron-box />
     <first-section-box />
     <second-section-box />
@@ -9,7 +9,7 @@
     <fifth-section-box />
     <sixth-section-box />
     <seventh-section-box />
-    <footer-box/>
+    <footer-box />
   </div>
 </template>
 
@@ -37,6 +37,11 @@ export default {
     SixthSectionBox,
     SeventhSectionBox,
     FooterBox,
+  },
+  data() {
+    return {
+      menu: ["Home", "Apple", "Microsoft", "Android", "Forum", "Contact us"],
+    };
   },
 };
 </script>
