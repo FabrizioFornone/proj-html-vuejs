@@ -35,6 +35,16 @@ a {
     color: $white;
   }
 }
+.black-btn:active,
+.black-btn:focus,
+.black-btn:active:focus,
+.eastern-blue-btn:active,
+.eastern-blue-btn:focus,
+.eastern-blue-btn:active:focus {
+  background-image: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 
 h2 {
   font-size: 50px;
