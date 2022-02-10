@@ -2,7 +2,7 @@
 
 header {
   background-color: $eastern-blue;
-  font-size: 13px;
+  font-size: 14px;
   height: 85px;
   color: $white;
 
@@ -29,7 +29,7 @@ header {
 
             a {
               height: 100%;
-              color: $silver-chalice;
+              color: $powered-blue;
 
               &:hover {
                 color: $white;
@@ -38,8 +38,16 @@ header {
 
             button {
               background-color: $black;
-              padding: 3px 15px;
+              padding: 8px 20px;
               font-size: 10px;
+              
+              &:hover {
+                background-color: $salmon;
+              }
+
+              a {
+                color: $white;
+              }
             }
 
             #lens {

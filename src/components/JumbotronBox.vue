@@ -2,8 +2,8 @@
   <section class="jumbotron">
     <div class="container">
       <div>
-        <h1>Tech Forum!</h1>
-        <p class="py-2">Discuss all the latest technology news and trends</p>
+        <h1 class="fw-bold">Tech Forum!</h1>
+        <p class="py-4">Discuss all the latest technology news and trends</p>
         <button class="text-uppercase fw-bold px-4 py-2 rounded">
           <a href="#"></a>get avada now! <i class="fas fa-angle-right px-1"></i>
         </button>
