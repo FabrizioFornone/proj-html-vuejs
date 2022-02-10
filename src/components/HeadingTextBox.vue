@@ -18,5 +18,5 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-@import "@/style/firstSectionStyle.scss";
+@import "@/style/headingTextStyle.scss";
 </style>

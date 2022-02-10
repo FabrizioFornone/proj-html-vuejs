@@ -8,7 +8,7 @@
     <second-item-row-box :latestNews2Props="latestNews2" />
     <tutorial-and-guide-box :tutorialAndGuideProps="tutorialAndGuide" />
     <forum-sections-box :iconsProps="icons" />
-    <community-and-subriscribe-box />
+    <community-and-subscribe-box />
     <footer-box :footerProps="footerItems" />
   </div>
 </template>
@@ -22,7 +22,7 @@ import FeaturedArticleBox from "./components/FeaturedArticleBox.vue";
 import SecondItemRowBox from "./components/SecondItemRowBox.vue";
 import TutorialAndGuideBox from "./components/TutorialAndGuideBox.vue";
 import ForumSectionsBox from "./components/ForumSectionsBox.vue";
-import CommunityAndSubriscribeBox from "./components/CommunityAndSubriscribeBox.vue";
+import CommunityAndSubscribeBox from "./components/CommunityAndSubscribeBox.vue";
 import FooterBox from "./components/FooterBox.vue";
 export default {
   name: "App",
@@ -35,7 +35,7 @@ export default {
     SecondItemRowBox,
     TutorialAndGuideBox,
     ForumSectionsBox,
-    CommunityAndSubriscribeBox,
+    CommunityAndSubscribeBox,
     FooterBox,
   },
   data() {

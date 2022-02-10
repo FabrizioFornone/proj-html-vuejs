@@ -57,5 +57,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/style/fifthSectionStyle.scss";
+@import "@/style/tutorialAndGuideStyle.scss";
 </style>

@@ -25,5 +25,5 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-@import "@/style/thirdSectionStyle.scss";
+@import "@/style/featuredArticleStyle.scss";
 </style>

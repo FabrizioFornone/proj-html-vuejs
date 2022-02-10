@@ -29,5 +29,5 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-@import "@/style/seventhSectionStyle.scss";
+@import "@/style/communityAndSubscribeStyle.scss";
 </style>
