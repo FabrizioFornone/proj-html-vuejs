@@ -3,30 +3,49 @@
 header {
   background-color: $eastern-blue;
   font-size: 13px;
-  height: 65px;
+  height: 85px;
   color: $white;
 
-  .logo {
-    width: 38%;
-  }
+  > div {
+    height: 100%;
 
-  nav {
-    ul {
-      li {
-        margin: 0 25px;
+    > div {
+      height: 100%;
 
-        a {
-          color: $white;
-        }
+      .logo {
+        width: 38%;
+      }
 
-        button {
-          background-color: $black;
-          padding: 3px 15px;
-          font-size: 10px;
-        }
+      nav {
+        height: 100%;
 
-        #lens {
-          cursor: pointer;
+        ul {
+          height: 100%;
+
+          li {
+            height: 100%;
+
+            margin: 0 25px;
+
+            a {
+              height: 100%;
+              color: $silver-chalice;
+
+              &:hover {
+                color: $white;
+              }
+            }
+
+            button {
+              background-color: $black;
+              padding: 3px 15px;
+              font-size: 10px;
+            }
+
+            #lens {
+              cursor: pointer;
+            }
+          }
         }
       }
     }

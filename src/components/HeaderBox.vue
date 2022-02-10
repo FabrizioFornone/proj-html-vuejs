@@ -3,20 +3,25 @@
     <div class="container">
       <div class="d-flex justify-content-between align-items-center py-2">
         <div>
-          <img class="logo" :src="`/img${logoProps}`" alt="" />
+          <a href="#">
+            <img class="logo" :src="`/img${logoProps}`" alt="" />
+          </a>
         </div>
-        <nav>
+        <nav class="d-flex align-items-center">
           <ul class="d-flex align-items-center">
-            <li v-for="(item, index) in menuProps" :key="index">
-              <a href="#">{{ item }}</a>
+            <li
+              v-for="(item, index) in menuProps"
+              :key="index"
+              class="d-flex align-items-center"
+            >
+              <a class="d-flex align-items-center" href="#">{{ item }}</a>
             </li>
-            <li>
+            <li class="d-flex align-items-center">
               <button class="text-uppercase fw-bold rounded">
                 <a href="#">join us</a>
               </button>
             </li>
-
-            <li>
+            <li class="d-flex align-items-center">
               <i id="lens" class="fas fa-search"></i>
             </li>
           </ul>
