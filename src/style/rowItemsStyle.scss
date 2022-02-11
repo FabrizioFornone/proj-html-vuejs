@@ -1,6 +1,14 @@
 @import "@/style/variabiles.scss";
 
 .col-4 {
+  img {
+    transition: all 0.5s;
+
+    &:hover {
+      filter: blur(1px);
+      transition: all 0.5s;
+    }
+  }
   span,
   p {
     color: $silver-chalice;

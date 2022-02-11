@@ -40,9 +40,14 @@
       <div class="d-flex justify-content-between">
         <div class="end-line">
           <span class="copyright-span">Copiright 2012 -2020</span>
-          <span>|</span> <span>Avada <strong>Theme Fusion</strong></span>
+          <span>|</span>
+          <span
+            >Avada <strong> <a href="#">Theme Fusion</a> </strong></span
+          >
           <span>|</span> <span>All Righjts Reserved</span><span>|</span>
-          <span>Powered by <strong>WordPress</strong> </span>
+          <span
+            >Powered by <strong> <a href="#">WordPress</a> </strong>
+          </span>
         </div>
         <div class="d-flex icon-box">
           <a href="#">

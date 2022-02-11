@@ -23,6 +23,12 @@
     font-size: 12px;
   }
 
+  .end-line strong {
+    &:hover {
+      color: $eastern-blue;
+    }
+  }
+
   .copyright-span::before {
     content: "\f1f9";
     font-family: "Font Awesome 5 Free";
@@ -54,10 +60,10 @@
     padding: 17px 17px;
   }
 
-  a{
+  a {
     color: $black;
 
-    &:hover{
+    &:hover {
       color: $eastern-blue;
     }
   }
