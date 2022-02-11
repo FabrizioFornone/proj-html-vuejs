@@ -26,6 +26,10 @@
         background-color: $white;
         border-top: 3px solid $eastern-blue;
 
+        &:hover {
+          color: $salmon;
+        }
+
         i {
           font-size: 36px;
           height: 80px;
